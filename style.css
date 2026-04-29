@@ -1,26 +1,36 @@
 body {
-    font-family: Arial;
-    background-color: lightgray;
-    text-align: center;
+    background: linear-gradient(to right, Pink, White);
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: dark blue;
+    color: red;
+    font-weight: bold;
 }
+.search-box {
+    border-radius: 20px;
+    padding: 10px;
+}
+
 
 table {
-    margin: auto;
-    border-collapse: collapse;
-    width: 70;
     background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-th {
-    background-color: blue;
-    color: white;
+
+.available {
+    color: green ! important;
+    font-weight: bold;
 }
 
-td, th {
+.not-available {
+    color: red !important;
+    font-weight: bold;
+}
+footer {
+    background-color:white;
+    color: red;
     padding: 10px;
-    border: 1px solid black;
 }
